@@ -1,0 +1,14 @@
+{
+  "editor.parameterHints.enabled": false,
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "python-envs.pythonProjects": [],
+
+  // Send Shift+Enter to the Interactive Window, not the terminal
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+
+  // Use the .venv interpreter
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+
+  // Activate the venv automatically in terminals (good practice)
+  "python.terminal.activateEnvironment": true
+}
